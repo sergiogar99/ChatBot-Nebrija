@@ -1,0 +1,16 @@
+version: "2.0"
+
+nlu:
+- intent: saludo
+  examples: |
+    - Hola
+    - Buenas
+    - Buenos dias
+    - Buenas tardes
+    - Buenas noches
+
+- intent: despedida
+  examples: |
+    - Adios
+    - Hasta luego
+  

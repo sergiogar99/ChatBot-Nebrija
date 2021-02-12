@@ -1,0 +1,15 @@
+version: "2.0"
+
+intents:
+  - saludo
+  - despedida
+
+responses:
+  utter_greet:
+  - text: "Hola como estas campeon"
+  utter_bye:
+  - text: "Hasta luego crack"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

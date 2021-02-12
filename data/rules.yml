@@ -1,0 +1,13 @@
+version: "2.0"
+
+rules:
+- rule: Saludo user
+  steps:
+  - intent: saludo
+  - action: utter_greet
+
+- rule: Despedida user
+  steps:
+  - intent: despedida
+  - action: utter_bye
+

@@ -1,0 +1,14 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: saludo y despedida
+- steps:
+  - user: |
+      Hola
+    intent: saludo
+  - action: utter_greet
+  - user: |
+      Adios
+    intent: despedida
+  - action: utter_bye
