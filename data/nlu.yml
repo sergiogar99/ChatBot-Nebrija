@@ -13,4 +13,8 @@ nlu:
   examples: |
     - Adios
     - Hasta luego
-  
+
+- intent: identidad
+  examples: |
+    - ¿Que eres?
+    - ¿Quien eres?

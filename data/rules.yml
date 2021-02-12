@@ -11,3 +11,7 @@ rules:
   - intent: despedida
   - action: utter_bye
 
+- rule: Presentarse al user
+  steps:
+  - intent: identidad
+  - action: utter_introduction

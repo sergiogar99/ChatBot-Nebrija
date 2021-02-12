@@ -3,12 +3,15 @@ version: "2.0"
 intents:
   - saludo
   - despedida
+  - identidad
 
 responses:
   utter_greet:
   - text: "Hola como estas campeon"
   utter_bye:
   - text: "Hasta luego crack"
+  utter_introduction:
+  - text: "Soy un ChatBot, y mi proposito es servir y ayudar a la Universidad Antonio de Nebrija"
 
 session_config:
   session_expiration_time: 60
