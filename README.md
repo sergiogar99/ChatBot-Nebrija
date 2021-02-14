@@ -24,7 +24,7 @@ pip3 install -U pip
 pip3 install rasa
 ```
 
-**Dependencies for spaCy**
+**Dependencies for spaCy (Spanish Example)**
 ```
 pip3 install rasa[spacy]
 python3 -m spacy download es_dep_news_trf
