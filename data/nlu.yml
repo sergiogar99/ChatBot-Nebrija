@@ -13,8 +13,457 @@ nlu:
   examples: |
     - Adios
     - Hasta luego
+    - Hasta pronto
+    - Nos vemos
+    - Hasta siempre
+    - Hasta mañana
+    - Te veo luego
+    - Chao
 
 - intent: identidad
   examples: |
     - ¿Que eres?
     - ¿Quien eres?
+
+- intent: home_web_page
+  examples: |
+    - Pagina web
+    - Web
+    - Pagina web inicio
+    - Inicio
+    - Home page
+    - Pagina inicio
+    - Nebrija web
+    - Nebrija pagina de inicio
+    - Nebrija pagina web
+    - Quiero ver la pagina de inicio
+    - Enlace a la pagina de inicio
+    - Pagina de inicio de la universidad
+    - universidad
+    - nebrija
+    - antonio de nebrija
+    - antonio
+    - plataforma
+    - horario
+    - opinion
+    - opiniones
+
+- intent: campus_virtual_web_page
+  examples: |
+    - Campus virtual
+    - Campus web
+    - Campus alumno 
+    - Web campus
+    - Pagina web campus virtual
+    - Quiero ver el campus virtual
+    - Ver campus virtual
+    - Enlace del campus virtual
+    - Pagina Campus virtual Nebrija
+    - Pagina Campus virtual
+    - Pagina Campus web
+    - Pagina Campus alumno 
+    - Pagina web Campus virtual Nebrija
+    - Pagina web Campus virtual
+    - Pagina web Campus alumno
+    - web Campus virtual Nebrija
+    - web Campus virtual
+    - web Campus alumno  
+    - Blackboard
+    - Black
+    - Board 
+    - Web Blackboard
+    - Pagina web Blackboard
+    - Pagina blackboard
+    - aula
+    - aula virtual
+    - profesores
+    - videoconferencia
+
+- intent: portal_del_alumno_web_page
+  examples: |
+    - Portal del alumno
+    - Portal
+    - Portal alumno
+    - Portal Nebrija
+    - Portal alumno nebrija
+    - Pagina del portal del alumno
+    - Pagina del portal
+    - Pagina del portal del alumno Nebrija
+    - Quiero ver el portal del alumno 
+    - Ver portal del alumno
+    - Ver portal
+    - Pagina web del portal del alumno
+    - Pagina web del portal
+    - Pagina web del portal del alumno Nebrija
+    - web del portal del alumno
+    - web del portal
+    - web del portal del alumno Nebrija
+    - acceso a alumnos
+    - acceso
+    - certificado covid
+    - certificado movilidad
+
+
+- intent: informacion_contacto
+  examples: |
+    - Informacion de contacto
+    - Contacto con la universidad
+    - Telefono universidad
+    - Movil universidad
+    - Datos de contacto de la universidad
+    - Correo electronico de la universidad
+    - Mail de la universidad
+    - Llamar a la universidad
+    - Correo de la universidad
+    - Numero de telefono de la universidad
+    - Correo universidad
+    - Contacto universidad
+    - Contacto
+    - Datos de contacto
+
+- intent: informacion_contacto_web
+  examples: |
+    - Web de Informacion de contacto
+    - Web de Contacto con la universidad
+    - Web con Datos de contacto de la universidad
+    - Pagina de Informacion de contacto
+    - Pagina de Contacto con la universidad
+    - Pagina con Datos de contacto de la universidad
+    - Pagina Web de Informacion de contacto
+    - Pagina Web de Contacto con la universidad
+    - Pagina Web con Datos de contacto de la universidad
+    - Page de contacto
+
+- intent: presentacion
+  examples: |
+    - Web de presentacion de la universidad
+    - Web de presentacion
+    - Pagina de presentacion de la universidad
+    - Pagina de presentacion
+    - Pagina web de presentacion de la universidad
+    - Pagina web de presentacion
+    - presentacion de la universidad
+    - presentacion
+    - rector
+    - rectorado
+    - quienes somos
+    - que somos
+    - reconomientos
+    - facultades
+    - centros
+    - unidad tecnica de calidad 
+    - medios de comunicacion
+    - transparencia
+    - institutos
+    - profesores
+    - profesorado
+
+- intent: oferta_academica
+  examples: |
+    - Web de oferta academica de la universidad
+    - Web de oferta academica
+    - Pagina de oferta academica de la universidad
+    - Pagina de oferta academica
+    - Pagina web de oferta academica de la universidad
+    - Pagina web de oferta academica
+    - oferta academica de la universidad
+    - oferta academica
+    - academica
+    - oferta
+    - carrera
+    - carrera universitaria
+    - grado
+    - grado universitario
+    - master
+    - master universitario
+    - postgrado
+    - postgrado universitario
+    - doctorado
+    - doctorado universitario
+    - información academica
+    - ¿Que carreras hay?
+    - ¿Que grado hay?
+    - ¿Que postgrado hay?
+    - ¿Que master hay?
+    - ¿Que doctorado hay?
+    - informacion grado
+    - informacion carrera
+    - informacion master
+    - informacion postgrado
+    - informacion doctorado
+    - estudios
+    - plan de estudios
+    - cursos
+    - hacer cursos
+    - ver cursos 
+    - informacion de cursos
+    - precios 
+    - coste
+    - titulos
+    - titulacion
+    - trabajo 
+    - escuela
+    - formacion
+    - e learning
+    - global campus
+    - global
+
+
+- intent: nuevos_estudiantes
+  examples: |
+    - Web de estudiar en la universidad
+    - Pagina de estudiar en la universidad
+    - Pagina web estudiar en la universidad
+    - estudiar en la universidad
+    - quiero estudiar en la universidad
+    - ¿Que hacer para estudiar en la universidad?
+    - Nuevos estudiantes 
+    - nuevos 
+    - Estudiante nuevo 
+    - Soy un estuidante nuevo
+    - Admision
+    - Convalidacion
+    - Traslado de expediente
+    - No soy un estudiante
+
+- intent: vida_universitaria
+  examples: |
+    - Web de vida universitaria en la universidad
+    - Web de la vida universitaria en la universidad
+    - Web de vida universitaria
+    - Pagina de vida universitaria en la universidad
+    - Pagina de vida universitaria
+    - Pagina Web de vida universitaria en la universidad
+    - Pagina Web de vida universitaria
+    - vida universitaria
+    - vida universitaria de la universidad
+    - vida universitaria de la universidad antonio de nebrija
+    - quiero ver vida universitaria
+    - quiero ver la vida universitaria
+    - ¿Como es la vida universitaria?
+    - Club
+    - Clubes en la universidad
+    - Informacion de los clubes
+    - ¿Hay clubes en la universidad?
+    - ¿Que clubes hay en la universidad?
+    - ¿Que clubes hay?
+    - Deportes
+    - Deportes en la universidad
+    - ¿Hay deportes en la universidad?
+    - ¿Que deportes hay en la universidad?
+    - ¿Que deportes hay?
+    - Profesional
+    - Nebrija profesional
+    - Practicas
+    - Practicas en la universidad
+    - Actividades
+    - Actividades en la universidad
+    - ¿Que actividades hay en la universidad?
+    - Redes sociales 
+    - Redes sociales de la universidad
+    - ¿Que redes sociales tiene en la universidad?
+    - Blogs 
+    - Blog de la universidad
+    - Espacios multiculturales
+    - Espacione multiculturales de la universidad
+    - Servicios
+    - Servicios de la universidad
+    - Actualidad
+    - Actualidad de la  universidad
+    - Residencias
+    - Residencias de la universidad
+    - ¿Que residencias tiene la universidad?
+    - Defensoria
+    - Defensoria de la universidad
+    - Repositorio
+    - servicios
+    - Laboratorio
+    - cafeteria
+    - comedores
+    - taller
+    - salas
+    - pdi 
+    - pda 
+    - proyector 
+    - pantalla 
+    - televisión 
+    - vídeo 
+    - DVD  
+    - pizarra
+    - menu
+    - catering
+    - comida
+    
+- intent: programas_internacionales
+  examples: |
+    - Web de programas internacionales en la universidad
+    - Web de programas internacionales
+    - Pagina de programas internacionales en la universidad
+    - Pagina de programas internacionales
+    - Pagina Web de programas internacionales en la universidad
+    - Pagina Web de programas internacionales
+    - programas internacionales
+    - programas internacionales de la universidad
+    - programas internacionales de la universidad antonio de nebrija
+    - quiero ver programas internacionales
+    - ¿Hay programas internacionales?
+    - ¿Que programas internacionales teneis?
+    - Estudiante internacionales
+    - Internacional
+    - erasmus
+    - beca erasmus
+    - movilidad
+    - europa
+    - españa
+      
+- intent: investigacion
+  examples: |
+    - Web de investigacion en la universidad
+    - Pagina de investigacion en la universidad
+    - Pagina web investigacion en la universidad
+    - investigacion en la universidad
+    - quiero investigar en la universidad
+    - ¿Que hacer para investigacion en la universidad?
+    - Investigar
+    - investigacion 
+    - investigador
+    - catedras 
+
+- intent: alumnos
+  examples: |
+    - alumnos
+    - Pagina de alumnos en la universidad
+    - Pagina web de alumnos en la universidad
+    - Web de alumnos
+    - soy alumnos
+    - opciones de alumno
+    - todo del alumno
+    - estudiantes
+    - Pagina de estudiantes en la universidad
+    - Pagina web de estudiantes en la universidad
+    - Web de estudiantes
+    - soy estudiante
+    - opciones de estudiantes
+    - todo del estudiantes
+    - servicios a los estudiantes
+    - atencion al estudiantes
+    - ate
+    - quiero hablar con atencion al estudiantes
+    - informacion al alumno
+    - informacion al estudiantes
+    - mi perfil
+    - psicologa
+    - psicologo
+    - gabinete orientacion psicopedagogico
+    - psicopedagogico
+    - orientacion
+    - centro de escritura
+    - escritura
+    - aula de idiomas
+    - perfil
+    - alojamiento
+    - estancia
+    - habitaciones
+    - accesibilidad
+    
+
+- intent: calendario_academico
+  examples: |
+    - calendario
+    - calendario academico
+    - fechas
+    - lectivo
+    - calendario lectivo
+    - periodo
+    - vacaciones
+    - inicio de cursos
+    - fiesta
+    - bienvenida
+    - examenes
+    - fechas
+    - dia
+    - mes 
+    - año   
+
+
+- intent: puertas_abiertas
+  examples: |
+    - puertas
+    - abiertas 
+    - jornada
+    - jornada de puertas
+    - jornada de puertas abiertas
+
+- intent: becas_ayudas
+  examples: |
+    - becas
+    - becas y ayudas 
+    - remuneracion
+    - bonificaciones
+
+- intent: biblioteca
+  examples: |
+    - biblioteca
+    - informacion biblioteca
+    - horario biblioteca
+
+- intent: correo_web
+  examples: |
+    - correo web
+    - correo estudiante
+    - web Mail
+    - correo profesor
+    - mail profesor
+    - mail estudiante
+
+- intent: secretaria
+  examples: | 
+    - secretaria
+    - numero de secretaria
+    - telefono secretaria
+    - horario secretaria
+
+- intent: directorio
+  examples: | 
+    - directorio
+    - numero de directorio
+    - telefono directorio
+    - horario directorio
+
+- intent: programas_online
+  examples: | 
+    - online
+    - programas online
+    - estudio online
+    - grado online
+    - master online
+    - curso online
+    - postgrado online
+    - eduacion online
+    - a distancia
+    - presencial
+    - telecole
+
+- intent: ubicacion
+  examples: | 
+    - ubicacion
+    - berzosa
+    - campus berzosa
+    - ¿Donde esta el campus?
+    - campus san rafael
+    - san rafael
+    - madrid
+    - princesa
+    - madrid princesa
+    - Joaquín María López
+    - Dehesa de la Villa
+    - campus Dehesa de la Villa
+    - Campus de La Berzosa
+    - La Berzosa
+    - hoyo manzanares
+    - como ir
+    - ir
+    - dirección
+    - mapa
+    - localizacion
+  
