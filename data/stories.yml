@@ -2,11 +2,115 @@ version: "2.0"
 
 stories:
 
-- story: saludo, despedida y presentacion
+- story: saludo y presentacion
   steps:
   - intent: saludo
   - action: utter_greet
-  - intent: despedida
-  - action: utter_bye
   - intent: identidad
   - action: utter_introduction
+
+- story: despedida
+  steps:
+  - intent: despedida
+  - action: utter_bye
+
+- story: home web
+  steps:
+  - intent: home_web_page
+  - action: utter_web_home_page
+
+- story: campus virtual web
+  steps:
+  - intent: campus_virtual_web_page
+  - action: utter_web_campus_virtual
+
+- story: portal alumno web
+  steps:
+  - intent: portal_del_alumno_web_page
+  - action: utter_web_portal_alumno
+
+- story: contacto universidad
+  steps:
+  - intent: informacion_contacto
+  - action: utter_contact_info
+
+- story: Web contacto nebrija
+  steps:
+  - intent: informacion_contacto_web
+  - action: utter_contact_info_web
+  
+- story: Web presentacion
+  steps:
+  - intent: presentacion
+  - action: utter_presentation
+
+- story: Web oferta academica
+  steps:
+  - intent: oferta_academica
+  - action: utter_academic_offer
+
+- story: Web de estudiar en la universidad
+  steps:
+  - intent: nuevos_estudiantes
+  - action: utter_new_students
+
+- story: Web de vida universitaria
+  steps:
+  - intent: vida_universitaria
+  - action: utter_stutent_life
+
+
+- story: Web de programas internacionales
+  steps:
+  - intent: programas_internacionales
+  - action: utter_international_program
+
+- story: Web de investigacion
+  steps:
+  - intent: investigacion
+  - action: utter_investigation
+
+- story: Web de alumnos
+  steps:
+  - intent: alumnos
+  - action: utter_students_web
+
+- story: Web de calendario academico
+  steps:
+  - intent: calendario_academico
+  - action: utter_academic_calendar
+
+- story: Web de jornada de puertas abiertas
+  steps:
+  - intent: puertas_abiertas
+  - action: utter_openday
+
+- story: Web de becas y ayudas
+  steps:
+  - intent: becas_ayudas
+  - action: utter_scholarship
+
+- story: Web de biblioteca
+  steps:
+  - intent: biblioteca
+  - action: utter_library
+
+- story: Correo web
+  steps:
+  - intent: correo_web
+  - action: utter_web_mail
+
+- story: Web de Directorio
+  steps:
+  - intent: directorio
+  - action: utter_directory
+
+- story: Web de Programas Online
+  steps:
+  - intent: programas_online
+  - action: utter_online_program
+
+- story: Web de Ubicación de Campus y Centros
+  steps:
+  - intent: ubicacion
+  - action: utter_university_location
