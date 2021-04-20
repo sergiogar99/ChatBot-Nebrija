@@ -4,14 +4,105 @@ intents:
   - saludo
   - despedida
   - identidad
+  - home_web_page
+  - campus_virtual_web_page
+  - portal_del_alumno_web_page
+  - informacion_contacto
+  - informacion_contacto_web
+  - presentacion
+  - oferta_academica
+  - nuevos_estudiantes
+  - vida_universitaria
+  - programas_internacionales
+  - investigacion
+  - mapa_web
+  - alumnos
+  - calendario_academico
+  - puertas_abiertas
+  - becas_ayudas
+  - biblioteca
+  - correo_web
+  - secretaria
+  - directorio
+  - programas_online
+  - ubicacion
 
 responses:
   utter_greet:
-  - text: "Hola como estas campeon"
+  - text: "Hola, soy Glor.ia, ¿en qué puedo ayudarle?"
   utter_bye:
-  - text: "Hasta luego crack"
+  - text: "Hasta pronto"
+  
   utter_introduction:
   - text: "Soy un ChatBot, y mi proposito es servir y ayudar a la Universidad Antonio de Nebrija"
+  
+  utter_web_home_page:
+  - text: "Página de Inicio de la Universidad \nhttps://www.nebrija.com/"
+  
+  utter_web_campus_virtual:
+  - text: "Campus Virtual de la Universidad \nhttps://campusvirtual.nebrija.es/webapps/login/"
+  
+  utter_web_portal_alumno:
+  - text: "Portal del Alumno de la Universidad \nhttps://www.nebrija.es/login/alumnos/"
+  
+  utter_contact_info: 
+  - text: "Información de contacto de la Universidad \nTeléfono: 900 321 322 \nCorreo Electrónico: informa@nebrija.es"
+  
+  utter_contact_info_web:
+  - text: "Página con la información de contacto de la Universidad \nhttps://www.nebrija.com/general/contactar.php"
+  
+  utter_presentation:
+  - text: "Página de Presentación de la Universidad \nhttps://www.nebrija.com/la_universidad/presentacion/"
+  
+  utter_academic_offer:
+    - text: "Oferta Académica de la Universidad \nhttps://www.nebrija.com/estudios/"
+  
+  utter_new_students:
+    - text: "Estudiar en la Universidad \nhttps://www.nebrija.com/nuevos-estudiantes/"
+
+  utter_stutent_life:
+    - text: "Página de Vida Universitaria de la Universidad \nhttps://www.nebrija.com/vida_universitaria/"
+  
+  utter_international_program:
+    - text: "Programas internacionales de la Universidad \nhttps://www.nebrija.com/programas-internacionales/"
+  
+  utter_investigation:
+    - text: "Página de Investigación de la Universidad \nhttps://www.nebrija.com/investigacion-universidad/"
+  
+  utter_students_web:
+    - text: "Página web para los Alumnos de la Universidad \nhttps://www.nebrija.com/perfiles/alumnos.php"
+
+  utter_academic_calendar: 
+    - text: "Página web con el Calendario Académico de la Universidad \nhttps://www.nebrija.es/svralumnado/CalendariosAcademicos.php"
+
+  utter_openday: 
+    - text: "Página web de la Jornada de Puertas Abiertas de la Universidad \nhttps://www.nebrija.com/jornada-puertas-abiertas/"
+
+  utter_scholarship:
+    - text: "Página web de Becas y Ayudas de la Universidad \nhttps://www.nebrija.com/becas/"
+
+  utter_library:
+    - text: "Página web de la Biblioteca de la Universidad \nhttps://www.nebrija.com/vida_universitaria/servicios/biblioteca.php"
+
+  utter_web_mail:
+    - text: "Correo Web \nhttp://outlook.com/owa/nebrija.es"
+
+  utter_secretary:
+    - text: "Página de contacto de Secretaría de la Universidad \nhttps://www.nebrija.es/svralumnado/contactaSecretaria.php"
+
+  utter_directory:
+    - text: "Paǵina del Directorio de la Universidad \nhttps://www.nebrija.es/svralumnado/directorioContactos.php"
+
+  utter_online_program:
+    - text: "Página de los Programas Online de la Universidad \nhttps://www.nebrija.com/nebrija-global-campus/programas/online.php"
+
+  utter_university_location:
+    - text: "Página de la Ubicación de los Campus y Centros de la Universidad \nhttps://www.nebrija.com/la_universidad/visita-virtual/como-llegar-nebrija.php"
+
+  utter_giraffe_sticker:
+    - text: Here's my giraffe sticker!
+      custom:
+        sticker: "https://github.com/TelegramBots/book/raw/master/src/docs/sticker-fred.webp"
 
 session_config:
   session_expiration_time: 60
