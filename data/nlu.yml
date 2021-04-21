@@ -44,7 +44,6 @@ nlu:
     - antonio de nebrija
     - antonio
     - plataforma
-    - horario
     - opinion
     - opiniones
 
@@ -76,8 +75,11 @@ nlu:
     - Pagina blackboard
     - aula
     - aula virtual
-    - profesores
     - videoconferencia
+    - notas 
+    - calificaciones 
+    - asignaturas 
+    
 
 - intent: portal_del_alumno_web_page
   examples: |
@@ -102,6 +104,18 @@ nlu:
     - acceso
     - certificado covid
     - certificado movilidad
+    - datos personales
+    - cambio de estudio
+    - expediente academico
+    - encuestas
+    - FAQS
+    - licencias
+    - tiendas
+    - dudas administrativas
+    - autorizacion
+    - movilidad 
+    - solicitud
+    - tarjeta universitaria
 
 
 - intent: informacion_contacto
@@ -157,6 +171,29 @@ nlu:
     - institutos
     - profesores
     - profesorado
+    - gobierno
+    - regimen de gobierno
+    - doctores honoris causa 
+    - memoria 
+    - espacio europeo de educacion superior
+    - espacio europeos
+    - planificacion y servicios
+    - planificacion
+    - gerencia
+    - desarrollo universitario
+    - desarrollo
+    - patronato de la universidad
+    - patronato
+    - consejo
+    - consejo de gobierno
+    - consejo rector de la universidad
+    - vicerrectorado 
+    - Vicerrectorado de Ordenación Académica y Profesorado
+    - El Vicerrectorado de investigacion
+    - Vicerrectorado de Estudiantes y Empleabilidad
+    - estructura organizativa de las facultades
+    - estructura facultades
+
 
 - intent: oferta_academica
   examples: |
@@ -207,6 +244,7 @@ nlu:
     - e learning
     - global campus
     - global
+    - titulaciones
 
 
 - intent: nuevos_estudiantes
@@ -225,6 +263,23 @@ nlu:
     - Convalidacion
     - Traslado de expediente
     - No soy un estudiante
+    - tasas
+    - precios 
+    - tasas economicas 
+    - dinero
+    - mensualidades
+    - financiación
+    - prestamos 
+    - acceso para mayores
+    - preinscripcion
+    - pruebas
+    - admision
+    - estudiar 
+    - prematricula
+    - matricula
+    - orientacion academica
+    - plazas 
+    - reserva de plazas
 
 - intent: vida_universitaria
   examples: |
@@ -270,9 +325,6 @@ nlu:
     - Servicios de la universidad
     - Actualidad
     - Actualidad de la  universidad
-    - Residencias
-    - Residencias de la universidad
-    - ¿Que residencias tiene la universidad?
     - Defensoria
     - Defensoria de la universidad
     - Repositorio
@@ -291,8 +343,25 @@ nlu:
     - DVD  
     - pizarra
     - menu
-    - catering
+    - cateria
     - comida
+    - opina
+    - opinion
+    - instalaciones
+    - servicios online
+    - empleo
+    - empresas
+    - Parroquia
+    - Iglesia
+    - Sinagoga
+    - Mezquita
+    - budismo
+    - Templo
+    - Imagenes
+    - Nebrija en imajenes
+    - Videos
+    - Videos Nebrija
+    - Galeria
     
 - intent: programas_internacionales
   examples: |
@@ -315,6 +384,13 @@ nlu:
     - movilidad
     - europa
     - españa
+    - acuerdos internacionales
+    - oficina de movilidad internacional 
+    - centro de estudios hispanicos
+    - estudios hispanicos
+    - movilidad internacional
+    - sedes 
+    - sedes nebrija
       
 - intent: investigacion
   examples: |
@@ -328,6 +404,14 @@ nlu:
     - investigacion 
     - investigador
     - catedras 
+    - doctorado investigacion
+    - grupos de investigacion
+    - centros de investigacion
+    - catedras de investigacion
+    - Memorias de investigación
+    - Memorias de indicadores de investigación
+    - Memorias de grupos de investigación
+    - Noticias de Investigación
 
 - intent: alumnos
   examples: |
@@ -346,8 +430,10 @@ nlu:
     - opciones de estudiantes
     - todo del estudiantes
     - servicios a los estudiantes
-    - atencion al estudiantes
+    - atencion al estudiante
+    - atencion
     - ate
+    - carreras profesionales
     - quiero hablar con atencion al estudiantes
     - informacion al alumno
     - informacion al estudiantes
@@ -361,9 +447,6 @@ nlu:
     - escritura
     - aula de idiomas
     - perfil
-    - alojamiento
-    - estancia
-    - habitaciones
     - accesibilidad
     
 
@@ -383,7 +466,8 @@ nlu:
     - fechas
     - dia
     - mes 
-    - año   
+    - año
+    - horario   
 
 
 - intent: puertas_abiertas
@@ -400,6 +484,7 @@ nlu:
     - becas y ayudas 
     - remuneracion
     - bonificaciones
+    - ayudas economicas
 
 - intent: biblioteca
   examples: |
@@ -429,6 +514,7 @@ nlu:
     - numero de directorio
     - telefono directorio
     - horario directorio
+    - directorio de contactos
 
 - intent: programas_online
   examples: | 
@@ -466,4 +552,39 @@ nlu:
     - dirección
     - mapa
     - localizacion
-  
+    - como llegar
+    - como ir
+
+- intent: app_blackboard
+  examples: | 
+    - aplicacion
+    - app
+    - play store
+    - android
+    - apple store
+    - apple
+    - aplicacion blackboard
+    - instalar
+    - descargar
+    - google
+    - google play
+    - play
+
+
+- intent: residencias
+  examples: | 
+    - residencias
+    - residencia
+    - alojamiento
+    - convivencia
+    - habitacion
+    - estancia 
+    - augustinos
+    - camberí
+    - corazonistas
+    - con-vive 
+    - residente
+    - Residencias
+    - Residencias de la universidad
+    - ¿Que residencias tiene la universidad?
+    
