@@ -114,3 +114,13 @@ stories:
   steps:
   - intent: ubicacion
   - action: utter_university_location
+
+- story: Aplicacion BlackBoard
+  steps:
+  - intent: app_blackboard
+  - action: utter_app_blackboard
+
+- story: Residencias
+  steps:
+  - intent: residencias
+  - action: utter_residencias
