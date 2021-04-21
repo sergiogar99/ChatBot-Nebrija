@@ -46,6 +46,8 @@ nlu:
     - plataforma
     - opinion
     - opiniones
+    - principal
+    - main
 
 - intent: campus_virtual_web_page
   examples: |
@@ -67,12 +69,6 @@ nlu:
     - web Campus virtual Nebrija
     - web Campus virtual
     - web Campus alumno  
-    - Blackboard
-    - Black
-    - Board 
-    - Web Blackboard
-    - Pagina web Blackboard
-    - Pagina blackboard
     - aula
     - aula virtual
     - videoconferencia
@@ -101,7 +97,6 @@ nlu:
     - web del portal
     - web del portal del alumno Nebrija
     - acceso a alumnos
-    - acceso
     - certificado covid
     - certificado movilidad
     - datos personales
@@ -280,6 +275,8 @@ nlu:
     - orientacion academica
     - plazas 
     - reserva de plazas
+    - pruebas de acceso
+    - acceso
 
 - intent: vida_universitaria
   examples: |
