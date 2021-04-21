@@ -26,6 +26,8 @@ intents:
   - directorio
   - programas_online
   - ubicacion
+  - app_blackboard
+  - residencias
 
 responses:
   utter_greet:
@@ -99,10 +101,11 @@ responses:
   utter_university_location:
     - text: "Página de la Ubicación de los Campus y Centros de la Universidad \nhttps://www.nebrija.com/la_universidad/visita-virtual/como-llegar-nebrija.php"
 
-  utter_giraffe_sticker:
-    - text: Here's my giraffe sticker!
-      custom:
-        sticker: "https://github.com/TelegramBots/book/raw/master/src/docs/sticker-fred.webp"
+  utter_app_blackboard:
+    - text: "Aplicación de Black Board para el Móvil \nGoogle Play: \nhttps://play.google.com/store/apps/details?id=com.blackboard.android.bbstudent \nApple Store: \nhttps://apps.apple.com/us/app/bb-student-by-blackboard/id950424861"
+
+  utter_residencias:
+    - text: "Página de las Residencias de la Universidad \nhttps://www.nebrija.com/residencia-estudiantes/"
 
 session_config:
   session_expiration_time: 60
