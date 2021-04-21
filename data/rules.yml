@@ -121,4 +121,12 @@ rules:
   - intent: ubicacion
   - action: utter_university_location
 
+- rule: Aplicacion BlackBoard
+  steps:
+  - intent: app_blackboard
+  - action: utter_app_blackboard
 
+- rule: Residencias
+  steps:
+  - intent: residencias
+  - action: utter_residencias
