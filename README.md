@@ -1,8 +1,7 @@
 # ChatBot-Nebrija
 ChatBot of Nebrija University (Final Graduate Proyect)
 
-
-## Ubuntu Install and Run
+## Install and Run of ChatBot-Nebrija in Ubuntu
 
 ### Download the code 
 
@@ -31,6 +30,9 @@ python3 -m spacy download es_dep_news_trf
 python3 -m spacy link es_dep_news_trf
 ```
 
+### Run ChatBot-Nebrija
+
+[Run ChatBot-Nebrija on Local Machine](https://rasa.com/docs/rasa/messaging-and-voice-channels/)
 
 
 
