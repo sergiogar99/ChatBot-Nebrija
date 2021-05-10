@@ -26,7 +26,7 @@ pip3 install rasa
 **Dependencies for spaCy (Spanish Example)**
 ```
 pip3 install rasa[spacy]
-python -m spacy download es_dep_news_trf
+python -m spacy download es_core_news_sm
 ```
 
 ### Run ChatBot-Nebrija
