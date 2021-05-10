@@ -9,13 +9,12 @@ intents:
   - portal_del_alumno_web_page
   - informacion_contacto
   - informacion_contacto_web
-  - presentacion
+  - presentacion_web
   - oferta_academica
   - nuevos_estudiantes
   - vida_universitaria
   - programas_internacionales
   - investigacion
-  - mapa_web
   - alumnos
   - calendario_academico
   - puertas_abiertas
@@ -28,10 +27,13 @@ intents:
   - ubicacion
   - app_blackboard
   - residencias
+  - nebrija_wiki
 
 responses:
+
   utter_greet:
   - text: "Hola, soy Glor.ia, ¿en qué puedo ayudarle?"
+
   utter_bye:
   - text: "Hasta pronto"
   
@@ -106,8 +108,11 @@ responses:
 
   utter_residencias:
     - text: "Página de las Residencias de la Universidad \nhttps://www.nebrija.com/residencia-estudiantes/"
+  
+  utter_wiki:
+    - text: "Página de la Wiki de la Universidad \nhttp://wiki.nebrija.es/wiki/Main_Page"
 
 session_config:
-  session_expiration_time: 60
+  session_expiration_time: 10
   carry_over_slots_to_new_session: true
   
