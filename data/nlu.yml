@@ -21,15 +21,17 @@ nlu:
     - Chao
 - intent: identidad
   examples: |
-    - ¿Que eres?
-    - ¿Quien eres?
+    - ¿ Que eres ?
+    - ¿ Quien eres ?
+    - quien eres 
+    - que eres
     - help 
     - /help
     - Bot 
     - Robot 
     - Android 
     - Chatbot 
-    - ¿Como te llamas?
+    - ¿ Como te llamas ?
 - intent: home_web_page
   examples: |
     - Pagina web
@@ -209,11 +211,11 @@ nlu:
     - doctorado
     - doctorado universitario
     - información academica
-    - ¿Que carreras hay?
-    - ¿Que grado hay?
-    - ¿Que postgrado hay?
-    - ¿Que master hay?
-    - ¿Que doctorado hay?
+    - ¿ Que carreras hay ?
+    - ¿ Que grado hay ?
+    - ¿ Que postgrado hay ?
+    - ¿ Que master hay ?
+    - ¿ Que doctorado hay ?
     - informacion grado
     - informacion carrera
     - informacion master
@@ -243,7 +245,7 @@ nlu:
     - Pagina web estudiar en la universidad
     - estudiar en la universidad
     - quiero estudiar en la universidad
-    - ¿Que hacer para estudiar en la universidad?
+    - ¿ Que hacer para estudiar en la universidad ?
     - Nuevos estudiantes 
     - nuevos 
     - Estudiante nuevo 
@@ -285,32 +287,32 @@ nlu:
     - vida universitaria de la universidad antonio de nebrija
     - quiero ver vida universitaria
     - quiero ver la vida universitaria
-    - ¿Como es la vida universitaria?
+    - ¿ Como es la vida universitaria ?
     - Club
     - Clubes en la universidad
     - Informacion de los clubes
-    - ¿Hay clubes en la universidad?
-    - ¿Que clubes hay en la universidad?
-    - ¿Que clubes hay?
+    - ¿Hay clubes en la universidad ?
+    - ¿Que clubes hay en la universidad ?
+    - ¿Que clubes hay ?
     - Deportes
     - Deportes en la universidad
-    - ¿Hay deportes en la universidad?
-    - ¿Que deportes hay en la universidad?
-    - ¿Que deportes hay?
+    - ¿Hay deportes en la universidad ?
+    - ¿Que deportes hay en la universidad ?
+    - ¿Que deportes hay ?
     - Profesional
     - Nebrija profesional
     - Practicas
     - Practicas en la universidad
     - Actividades
     - Actividades en la universidad
-    - ¿Que actividades hay en la universidad?
+    - ¿Que actividades hay en la universidad ?
     - Redes sociales 
     - Twitter 
     - Instagram 
     - Youtube 
     - Facebook
     - Redes sociales de la universidad
-    - ¿Que redes sociales tiene en la universidad?
+    - ¿Que redes sociales tiene en la universidad ?
     - Blogs 
     - Blog de la universidad
     - Espacios multiculturales
@@ -372,8 +374,8 @@ nlu:
     - programas internacionales de la universidad
     - programas internacionales de la universidad antonio de nebrija
     - quiero ver programas internacionales
-    - ¿Hay programas internacionales?
-    - ¿Que programas internacionales teneis?
+    - ¿ Hay programas internacionales ?
+    - ¿ Que programas internacionales teneis ?
     - Estudiante internacionales
     - Internacional
     - erasmus
@@ -395,7 +397,7 @@ nlu:
     - Pagina web investigacion en la universidad
     - investigacion en la universidad
     - quiero investigar en la universidad
-    - ¿Que hacer para investigacion en la universidad?
+    - ¿ Que hacer para investigacion en la universidad ?
     - Investigar
     - investigacion 
     - investigador
@@ -491,6 +493,7 @@ nlu:
     - correo profesor
     - mail profesor
     - mail estudiante
+    - outlook
 
 - intent: secretaria
   examples: | 
@@ -523,7 +526,7 @@ nlu:
     - ubicacion
     - berzosa
     - campus berzosa
-    - ¿Donde esta el campus?
+    - ¿ Donde esta el campus ?
     - campus san rafael
     - san rafael
     - madrid
@@ -571,7 +574,7 @@ nlu:
     - residente
     - Residencias
     - Residencias de la universidad
-    - ¿Que residencias tiene la universidad?
+    - ¿ Que residencias tiene la universidad ?
 - intent: nebrija_wiki
   examples: | 
     - recuperar contraseña
