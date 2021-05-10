@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: saludo
   examples: |
@@ -8,7 +7,8 @@ nlu:
     - Buenos dias
     - Buenas tardes
     - Buenas noches
-
+    - start 
+    - /start 
 - intent: despedida
   examples: |
     - Adios
@@ -19,12 +19,17 @@ nlu:
     - Hasta mañana
     - Te veo luego
     - Chao
-
 - intent: identidad
   examples: |
     - ¿Que eres?
     - ¿Quien eres?
-
+    - help 
+    - /help
+    - Bot 
+    - Robot 
+    - Android 
+    - Chatbot 
+    - ¿Como te llamas?
 - intent: home_web_page
   examples: |
     - Pagina web
@@ -48,7 +53,6 @@ nlu:
     - opiniones
     - principal
     - main
-
 - intent: campus_virtual_web_page
   examples: |
     - Campus virtual
@@ -71,12 +75,9 @@ nlu:
     - web Campus alumno  
     - aula
     - aula virtual
-    - videoconferencia
     - notas 
     - calificaciones 
     - asignaturas 
-    
-
 - intent: portal_del_alumno_web_page
   examples: |
     - Portal del alumno
@@ -104,15 +105,13 @@ nlu:
     - expediente academico
     - encuestas
     - FAQS
+    - preguntas frecuentes
     - licencias
-    - tiendas
     - dudas administrativas
     - autorizacion
     - movilidad 
     - solicitud
     - tarjeta universitaria
-
-
 - intent: informacion_contacto
   examples: |
     - Informacion de contacto
@@ -129,7 +128,6 @@ nlu:
     - Contacto universidad
     - Contacto
     - Datos de contacto
-
 - intent: informacion_contacto_web
   examples: |
     - Web de Informacion de contacto
@@ -142,8 +140,7 @@ nlu:
     - Pagina Web de Contacto con la universidad
     - Pagina Web con Datos de contacto de la universidad
     - Page de contacto
-
-- intent: presentacion
+- intent: presentacion_web
   examples: |
     - Web de presentacion de la universidad
     - Web de presentacion
@@ -188,8 +185,6 @@ nlu:
     - Vicerrectorado de Estudiantes y Empleabilidad
     - estructura organizativa de las facultades
     - estructura facultades
-
-
 - intent: oferta_academica
   examples: |
     - Web de oferta academica de la universidad
@@ -207,6 +202,7 @@ nlu:
     - grado
     - grado universitario
     - master
+    - estudios superiores
     - master universitario
     - postgrado
     - postgrado universitario
@@ -240,8 +236,6 @@ nlu:
     - global campus
     - global
     - titulaciones
-
-
 - intent: nuevos_estudiantes
   examples: |
     - Web de estudiar en la universidad
@@ -258,8 +252,7 @@ nlu:
     - Convalidacion
     - Traslado de expediente
     - No soy un estudiante
-    - tasas
-    - precios 
+    - tasas 
     - tasas economicas 
     - dinero
     - mensualidades
@@ -272,12 +265,12 @@ nlu:
     - estudiar 
     - prematricula
     - matricula
+    - automatricula
     - orientacion academica
     - plazas 
     - reserva de plazas
     - pruebas de acceso
     - acceso
-
 - intent: vida_universitaria
   examples: |
     - Web de vida universitaria en la universidad
@@ -312,6 +305,10 @@ nlu:
     - Actividades en la universidad
     - ¿Que actividades hay en la universidad?
     - Redes sociales 
+    - Twitter 
+    - Instagram 
+    - Youtube 
+    - Facebook
     - Redes sociales de la universidad
     - ¿Que redes sociales tiene en la universidad?
     - Blogs 
@@ -322,6 +319,8 @@ nlu:
     - Servicios de la universidad
     - Actualidad
     - Actualidad de la  universidad
+    - Noticias 
+    - Ultimas noticias 
     - Defensoria
     - Defensoria de la universidad
     - Repositorio
@@ -333,6 +332,10 @@ nlu:
     - salas
     - pdi 
     - pda 
+    - plan de dedicacion academica
+    - plan dedicacion academica
+    - dedicacion academica 
+    - Servicio de Gestión de Personal Docente e Investigador
     - proyector 
     - pantalla 
     - televisión 
@@ -342,8 +345,6 @@ nlu:
     - menu
     - cateria
     - comida
-    - opina
-    - opinion
     - instalaciones
     - servicios online
     - empleo
@@ -359,7 +360,6 @@ nlu:
     - Videos
     - Videos Nebrija
     - Galeria
-    
 - intent: programas_internacionales
   examples: |
     - Web de programas internacionales en la universidad
@@ -388,7 +388,6 @@ nlu:
     - movilidad internacional
     - sedes 
     - sedes nebrija
-      
 - intent: investigacion
   examples: |
     - Web de investigacion en la universidad
@@ -409,7 +408,6 @@ nlu:
     - Memorias de indicadores de investigación
     - Memorias de grupos de investigación
     - Noticias de Investigación
-
 - intent: alumnos
   examples: |
     - alumnos
@@ -443,10 +441,9 @@ nlu:
     - centro de escritura
     - escritura
     - aula de idiomas
+    - idiomas
     - perfil
     - accesibilidad
-    
-
 - intent: calendario_academico
   examples: |
     - calendario
@@ -465,8 +462,6 @@ nlu:
     - mes 
     - año
     - horario   
-
-
 - intent: puertas_abiertas
   examples: |
     - puertas
@@ -474,7 +469,6 @@ nlu:
     - jornada
     - jornada de puertas
     - jornada de puertas abiertas
-
 - intent: becas_ayudas
   examples: |
     - becas
@@ -482,13 +476,13 @@ nlu:
     - remuneracion
     - bonificaciones
     - ayudas economicas
-
+    - ayudas
+    - becado
 - intent: biblioteca
   examples: |
     - biblioteca
     - informacion biblioteca
     - horario biblioteca
-
 - intent: correo_web
   examples: |
     - correo web
@@ -504,7 +498,6 @@ nlu:
     - numero de secretaria
     - telefono secretaria
     - horario secretaria
-
 - intent: directorio
   examples: | 
     - directorio
@@ -512,7 +505,6 @@ nlu:
     - telefono directorio
     - horario directorio
     - directorio de contactos
-
 - intent: programas_online
   examples: | 
     - online
@@ -526,7 +518,6 @@ nlu:
     - a distancia
     - presencial
     - telecole
-
 - intent: ubicacion
   examples: | 
     - ubicacion
@@ -551,7 +542,6 @@ nlu:
     - localizacion
     - como llegar
     - como ir
-
 - intent: app_blackboard
   examples: | 
     - aplicacion
@@ -566,8 +556,6 @@ nlu:
     - google
     - google play
     - play
-
-
 - intent: residencias
   examples: | 
     - residencias
@@ -577,11 +565,52 @@ nlu:
     - habitacion
     - estancia 
     - augustinos
-    - camberí
+    - chamberí
     - corazonistas
     - con-vive 
     - residente
     - Residencias
     - Residencias de la universidad
     - ¿Que residencias tiene la universidad?
-    
+- intent: nebrija_wiki
+  examples: | 
+    - recuperar contraseña
+    - he perdido mi contraseña
+    - se me ha olvidado mi contraseña
+    - contraseña 
+    - password 
+    - quiero cambiar mi contraseña
+    - cambiar contraseña 
+    - conectarme a la wi-fi
+    - conectarme al wifi 
+    - wifi 
+    - wi-fi 
+    - internet 
+    - conectarse al wifi 
+    - conectarse a internet 
+    - impresora
+    - imprimir 
+    - conectarse a una impresora 
+    - configurar correo electronico 
+    - configurar correo 
+    - configurar correo web
+    - VPN 
+    - configurar VPN 
+    - red virtual privada
+    - virtal private net 
+    - configurar red privada
+    - red privada 
+    - videoconferencia
+    - soporte videoconferencia
+    - videoconferencia
+    - configurar video conferencia
+    - crear curso
+    - crear curso en el campus virtual
+    - faq del ssp
+    - ssp
+    - incidencia
+    - comunicar una incidencia
+    - wiki 
+    - wikipedia 
+    - wiki sistemas 
+    - wiki nebrija 
