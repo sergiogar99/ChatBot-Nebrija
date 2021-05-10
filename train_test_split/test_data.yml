@@ -1,0 +1,1210 @@
+version: "2.0"
+nlu:
+- intent: biblioteca
+  examples: |
+    - biblioteca
+    - ¿Cómo puedo ir a la biblioteca?
+    - ¿Donde está la biblioteca?
+    - ¿A que hora cierra la biblioteca?
+    - ¿Cómo es la biblioteca?
+    - ¿De que color es la biblioteca?
+    - como hacer un prestamo
+    - como hacer devoluciones
+    - plazo de prestamos
+    - libros
+    - libreria
+    - carnet biblioteca
+    - horario biblioteca
+- intent: secretaria
+  examples: |
+    - secretaria
+    - ¿Cómo puedo ir a la secretaria?
+    - ¿Donde está la secretaria?
+    - ¿A que hora cierra la secretaria?
+    - ¿Cómo es la secretaria?
+    - ¿De que color es la secretaria?
+    - numro secretaria
+    - numero secretaria
+    - contactar secretaria
+    - telefono secretaria
+    - informacion secretaria
+    - horario secretaria
+- intent: puertas_abiertas
+  examples: |
+    - abiertas
+    - ¿Cómo puedo ir a la jornada de puertas abiertas?
+    - puertas abiertas 
+    - ¿Cuando es la jornada de puertas abiertas?
+    - ¿Donde está la jornada de puertas abiertas?
+    - ¿A que hora cierra la jornada de puertas abiertas?
+    - ¿Cómo es la jornada de puertas abiertas?
+    - ¿De que color es la jornada de puertas abiertas?
+- intent: directorio
+  examples: |
+    - telefono directorio
+    - directorio de la universidad
+    - quiero ver la informacion del directorio de la universidad
+    - ¿Cual es el directorio de la universidad?
+    - Cómo es el directorio de la universidad?
+- intent: becas_ayudas
+  examples: |
+    - ayudas
+    - página de becas de la universidad
+    - quiero ver la pagina de becas de la universidad
+    - ¿ de que becas dispone la universidad?
+    - ¿ que becas ofrece la universidad?
+    - becas y ayudas de la universidad 
+    - dinero en becas de la universidad
+    - ¿como conseguir una beca de la universidad?
+    - quiero conseguir una beca
+    - quiero estar becado por la universidad
+    - bonificacion
+- intent: correo_web
+  examples: |
+    - web Mail
+    - correo web
+    - correo estudiante
+    - web Mail
+    - correo profesor
+    - como encontrar cprreo?
+    - mail profesor
+    - mail estudiante
+    - correo web de la universidad
+    - acceder a correo del estudiante 
+    - acceder al correo universitario 
+    - acceder al correo electronico de la universidad
+- intent: saludo
+  examples: |
+    - Buenas noches
+    - start
+    - Hola
+    - Buenas
+    - Buenos dias
+    - Buenas tardes
+    - Buenas noches
+    - start 
+    - hola te saludo
+    - /start 
+- intent: despedida
+  examples: |
+    - Hasta pronto
+    - Adios
+    - Hasta luego
+    - Hasta pronto
+    - Nos vemos
+    - Hasta siempre
+    - Hasta mañana
+    - Te veo luego
+    - Chao
+- intent: identidad
+  examples: |
+    - Bot
+    - Android
+    - ¿Que eres?
+    - ¿Quien eres?
+    - help 
+    - /help
+    - Bot 
+    - Robot 
+    - Android 
+    - Chatbot 
+    - ¿Eres un robot?
+    - ¿Eres una persona?
+    - ¿Cómo te llamas?
+    - ¿Cuál es tu nombre?
+
+- intent: informacion_contacto_web
+  examples: |
+    - Page de contacto
+    - Pagina con Datos de contacto de la universidad
+    - Web de Informacion de contacto
+    - Web de Contacto con la universidad
+    - Web con Datos de contacto de la universidad
+    - Pagina de Informacion de contacto
+    - Pagina de Contacto con la universidad
+    - Pagina con Datos de contacto de la universidad
+    - Pagina Web de Informacion de contacto
+    - Pagina Web de Contacto con la universidad
+    - Pagina Web con Datos de contacto de la universidad
+    - Page de contacto
+    - como contactar 
+    - info contactar
+    - ¿Cual es la pagina de contacto de la universidad?
+    - Quiero ver la pagina de contacto de la universidad 
+    - Quiero ver la informacion de contacto de la universidad
+- intent: programas_online
+  examples: |
+    - master online
+    - online
+    - programas online
+    - estudio online
+    - grado online
+    - master online
+    - curso online
+    - postgrado online
+    - eduacion online
+    - a distancia
+    - tipos de programas
+    - hay online y presencial?
+    - presencial
+    - telecole
+    - programas online de la universidad 
+    - ¿Cuáles son los programas online de la universidad?
+    - ¿La universidad tiene programas online?
+    - clases online
+- intent: app_blackboard
+  examples: |
+    - aplicacion
+    - app
+    - play store
+    - android
+    - apple store
+    - apple
+    - aplicacion blackboard
+    - instalar
+    - descargar
+    - google
+    - google play
+    - play
+    - aplicacion virtual
+    - Descargar la aplicación móvil de la universidad
+    - Quiero descargar la aplicación de la universidad
+    - ¿La universidad tiene aplicacion?
+    - Aplication 
+    - Aplicacion de black board de la universidad
+    - Ver el black board
+- intent: informacion_contacto
+  examples: |
+    - Informacion de contacto
+    - Contacto con la universidad
+    - Telefono universidad
+    - Movil universidad
+    - Datos de contacto de la universidad
+    - Correo electronico de la universidad
+    - Mail de la universidad
+    - Llamar a la universidad
+    - Correo de la universidad
+    - Numero de telefono de la universidad
+    - Correo universidad
+    - Contacto universidad
+    - Contacto
+    - Datos de contacto
+    - Quiero contactar con la universidad
+    - Contactar con la universidad 
+    - Quiero llamar a la universidad
+    - movil
+    - numerar
+    - infomac
+- intent: residencias
+  examples: |
+    - residencias
+    - residencia
+    - alojamiento
+    - convivencia
+    - habitacion
+    - estancia 
+    - augustinos
+    - chamberí
+    - corazonistas
+    - con-vive 
+    - residente
+    - residir
+    - recepcion
+    - Residencias
+    - Residencias de la universidad
+    - ¿Que residencias tiene la universidad?
+    - informacion sobre las residencias de la universidad
+    - quiero vivir en una residencia 
+    - precio de las residencias universitaria
+    - ¿La universidad tiene residencias?
+    - ¿Cómo son las residencias de la universidad?
+    - quiero ver las residencias
+    - ¿Dónde estan las residencias de la universidad?
+- intent: calendario_academico
+  examples: |
+    - calendario
+    - calendario academico
+    - fechas
+    - lectivo
+    - calendario lectivo
+    - periodo
+    - vacaciones
+    - inicio de cursos
+    - fiesta
+    - bienvenida
+    - examenes
+    - fechas
+    - dia
+    - mes 
+    - año
+    - horario 
+    - ¿Cuando se empiezan los examenes?
+    - ¿Cuando son los examenes?
+    - Quiero ver el calendario academico de la universidad
+    - Cuando son los examenes de la universidad
+    - ¿Cuando empiezan las vacaciones?
+    - ¿Cuando empiezan los examenes?
+    - ¿Que dia empiezan las vacaciones?
+    - ¿Que dia empiezan los examenes?
+- intent: investigacion
+  examples: |
+    - Web de investigacion en la universidad
+    - Pagina de investigacion en la universidad
+    - Pagina web investigacion en la universidad
+    - investigacion en la universidad
+    - quiero investigar en la universidad
+    - ¿Que hacer para investigacion en la universidad?
+    - Investigar
+    - investigacion 
+    - investigador
+    - catedras 
+    - doctorado investigacion
+    - grupos de investigacion
+    - centros de investigacion
+    - catedras de investigacion
+    - Memorias de investigación
+    - Memorias de indicadores de investigación
+    - Memorias de grupos de investigación
+    - Noticias de Investigación
+    - Investigador en la universidad
+    - Me gustaria investigar en la universidad
+    - Proyectos de investigacion en la universidad
+    - Pagina de investigacion de la universidad
+    - Como se investiga en la universidad
+- intent: home_web_page
+  examples: |
+    - Pagina web
+    - Web
+    - Pagina web inicio
+    - Inicio
+    - Home page
+    - Pagina inicio
+    - Nebrija web
+    - Nebrija pagina de inicio
+    - Nebrija pagina web
+    - Quiero ver la pagina de inicio
+    - Enlace a la pagina de inicio
+    - Pagina de inicio de la universidad
+    - universidad
+    - nebrija
+    - antonio de nebrija
+    - antonio
+    - plataforma
+    - opinion
+    - opiniones
+    - principal
+    - main
+    - Quiero ver la pagina de inicio de la universidad
+    - Quiero ir a la pagina de inicio de la universidad
+    - universidad
+- intent: ubicacion
+  examples: |
+    - ubicacion
+    - berzosa
+    - campus berzosa
+    - ¿Donde esta el campus?
+    - campus san rafael
+    - san rafael
+    - madrid
+    - princesa
+    - madrid princesa
+    - Joaquín María López
+    - Dehesa de la Villa
+    - campus Dehesa de la Villa
+    - Campus de La Berzosa
+    - La Berzosa
+    - hoyo manzanares
+    - como ir
+    - ir
+    - dirección
+    - mapa
+    - cuales son los campua 
+    - a que campus vyo
+    - que campus hay
+    - encontrar campus
+    - localizacion
+    - como llegar
+    - como ir
+    - ¿Donde esta la universidad?
+    - ¿Como esta la universidad?
+    - ¿Como ir a la universidad?
+    - ¿Como ir al edificio de la berzosa?
+    - Ubicacion de la universidad
+    - ¿Donde se encuentra la universidad?
+    - ¿Como llegar a la universidad?
+- intent: campus_virtual_web_page
+  examples: |
+    - Campus virtual
+    - Campus web
+    - Campus alumno 
+    - Web campus
+    - Pagina web campus virtual
+    - Quiero ver el campus virtual
+    - Ver campus virtual
+    - Enlace del campus virtual
+    - Pagina Campus virtual Nebrija
+    - web virtuañ alumno
+    - Pagina Campus virtual
+    - Pagina Campus web
+    - Pagina Campus alumno 
+    - Pagina web Campus virtual Nebrija
+    - Pagina web Campus virtual
+    - Pagina web Campus alumno
+    - web Campus virtual Nebrija
+    - web Campus virtual
+    - web Campus alumno  
+    - aula
+    - aula virtual
+    - notas 
+    - calificaciones 
+    - asignaturas
+    - acceder al campus de la universidad
+    - campus virtual
+    - quiero acceder a la pagina web del campus 
+    - pagina web del campus 
+    - aula virtual 
+    - enlace al campus virtual 
+    - evaluacion
+    - asignatura cursi
+    - enlace al campis 
+    - quiero ver mis nota 
+    - ¿Donde puedo ver mis notas?
+    - ¿Que notas he sacado?
+    - ¿Cales son mis calificaciones?
+    - ver mis calificaciones
+    - quiero ver mis calificaciones 
+    - ¿Donde puedo ver mis calificaciones?
+    - ¿Que calificaciones he sacado?
+    - ¿Cales son mis calificaciones?
+    - ver mis asignaturas
+    - quiero ver mis asignaturas 
+    - ¿Donde puedo ver mis asignaturas?
+    - ¿Que asignaturas he sacado?
+    - ¿Cales son mis asignaturas?
+    - ver mis asignaturas
+- intent: programas_internacionales
+  examples: |
+    - Web de programas internacionales en la universidad
+    - Web de programas internacionales
+    - Pagina de programas internacionales en la universidad
+    - Pagina de programas internacionales
+    - Pagina Web de programas internacionales en la universidad
+    - Pagina Web de programas internacionales
+    - programas internacionales
+    - programas internacionales de la universidad
+    - programas internacionales de la universidad antonio de nebrija
+    - quiero ver programas internacionales
+    - ¿Hay programas internacionales?
+    - ¿Que programas internacionales teneis?
+    - Estudiante internacionales
+    - Internacional
+    - erasmus
+    - beca erasmus
+    - movilidad
+    - europa
+    - españa
+    - programacion internacional
+    - porgrma erastus
+    - info paises
+    - conveniencia erasmus
+    - acuerdos internacionales
+    - oficina de movilidad internacional 
+    - centro de estudios hispanicos
+    - estudios hispanicos
+    - movilidad internacional
+    - pases convenio 
+    - sedes 
+    - sedes nebrija
+    - quiero irme de erasmus
+    - quiero estudiar en otra universidad
+    - quiero estudiar fuera
+    - pagina web de erasmus 
+    - informacion sobre el erasmus
+    - quiero hacer erasmus
+    - requisitos de erasmus
+    - ¿Que hay qu ehacer para ir de erasmus?
+    - adjudicaciones erasmus
+- intent: portal_del_alumno_web_page
+  examples: |
+    - Portal del alumno
+    - Portal
+    - Portal alumno
+    - Portal Nebrija
+    - Portal alumno nebrija
+    - puerta alumno
+    - portada alumno
+    - Pagina del portal del alumno
+    - Pagina del portal
+    - Pagina del portal del alumno Nebrija
+    - Quiero ver el portal del alumno 
+    - Ver portal del alumno
+    - Ver portal
+    - Pagina web del portal del alumno
+    - Pagina web del portal
+    - Pagina web del portal del alumno Nebrija
+    - web del portal del alumno
+    - web del portal
+    - web del portal del alumno Nebrija
+    - acceso a alumnos
+    - certificado covid
+    - certificado movilidad
+    - datos personales
+    - cambio de estudio
+    - expediente academico
+    - encuestas
+    - FAQS
+    - licencias
+    - tiendas
+    - dudas administrativas
+    - autorizacion
+    - movilidad 
+    - solicitud
+    - tarjeta universitaria
+    - Quiero acceder al portal del alumno
+    - Quiero acceder al portal 
+    - Quiero acceder a la pagina web del portal del alumno
+    - Quiero acceso a la pagina del portal
+    - Quiero ver el portal del alumno de la universidad
+    - Acceder al portal del alumno
+    - Acceso a alumnos de la universidad
+    - Quiero obtneer le certificado de movilidad covid 
+    - Quiero acceder al certificado de movilidad covid
+    - ¿Donde está el certificado de movilidad covid?
+    - Quiero ver mis datos personales
+    - Quiero acceder a mis datos personales
+    - Como puedo acceder a mis datos personales
+    - Quiero ver mis datos 
+    - ¿Donde puedo ver mis datos personales?
+    - cambio de estudio
+    - Quiero realizar un cambio de estudio 
+    - ¿Donde puedo ver mi expediente academico?
+    - ¿Como puedo acceder a mi expediente academico?
+    - ¿Cómo se encuentra mi expediente academico?
+    - Acceder a mi expediente academico
+    - expediente academico
+    - encuestas
+    - Quiero realizar as encuestas de los profesores
+    - ¿Donde se encuentran las encuestas?
+    - FAQS
+    - Ver las FAQS de la universidad
+    - Página web de GAQS de la universidad
+    - Pagina web con las preguntas frecuentes de la universidad
+    - Quiero ver las preguntas mas habituales de la universitaria
+    - Preguntas frecuentes 
+    - Preguntas mas frecuentes 
+    - Preguntas mas frecuentes de la universidad 
+    - Cuales son las preguntas mas frecuentes de la universidad 
+    - Licencias de la universidad 
+    - Quier ver mi licencia 
+    - ¿La universidad ofrece licencias a los alumnos?
+    - Quiero ver mi licencia 
+    - Quiero la licencia de un programa 
+    - Licencia de programas de la universidad
+    - licencias
+    - tengo una duda administrativa
+    - dudas administrativas
+    - quiero ver una autorizacion
+    - quiero solicitar una autorizacion
+    - ¿Donde puedo ver las autorizaciones?
+    - Quiero obtener una autorizacion
+    - autorizacion
+    - Justificante de movilidad
+    - movilidad 
+    - solicitudes 
+    - quiero hacer una solicitud
+    - ¿Donde puedo hacer solicitudes a la universidad?
+    - quiero ver las solicitudes
+    - ¿Como puedo ver una solicitud?
+    - solicitud
+- intent: alumnos
+  examples: |
+    - alumnos
+    - alunado
+    - alumnado
+    - Pagina de alumnos en la universidad
+    - Pagina web de alumnos en la universidad
+    - Web de alumnos
+    - soy alumnos
+    - solo estudiantes
+    - opciones de alumno
+    - todo del alumno
+    - estudiantes
+    - opiniones estudiantes
+    - Pagina de estudiantes en la universidad
+    - Pagina web de estudiantes en la universidad
+    - Web de estudiantes
+    - web alunado
+    - web alumnos
+    - soy estudiante
+    - opciones de estudiantes
+    - todo del estudiantes
+    - servicios a los estudiantes
+    - todo del estudio
+    - atencion al estudiante
+    - atencion
+    - ate
+    - carreras profesionales
+    - salida profesionales
+    - profesion
+    - profesional
+    - atentamente estudiantes
+    - info estudip
+    - profile
+    - quiero hablar con atencion al estudiantes
+    - informacion al alumno
+    - informacion al estudiantes
+    - mi perfil
+    - psicologa
+    - psicologo
+    - psicologia
+    - atencion psicologia
+    - gabinete orientacion psicopedagogico
+    - psicopedagogico
+    - orientacion
+    - centro de escritura
+    - escritura
+    - aula de idiomas
+    - idiomas
+    - idiomas impartidos
+    - clases de idiomas
+    - donde se dan lps idiomas
+    - languages
+    - idiom
+    - lenguas
+    - perfil
+    - accesibilidad
+    - accesi
+- intent: nuevos_estudiantes
+  examples: |
+    - Web de estudiar en la universidad
+    - Pagina de estudiar en la universidad
+    - Pagina web estudiar en la universidad
+    - estudiar en la universidad
+    - quiero estudiar en la universidad
+    - ¿Que hacer para estudiar en la universidad?
+    - quiero ser nuevo estudiante 
+    - soy un estuidante nuevo
+    - Nuevos estudiantes 
+    - nuevos 
+    - Estudiante nuevo 
+    - Soy un estuidante nuevo
+    - Admision
+    - procesos de admision 
+    - ¿como puedo ver mi admision?
+    - estado de mi admision 
+    - como ver si me admiten 
+    - admitir alumnios 
+    - admision 
+    - admitir 
+    - Convalidacion
+    - como convalidad asignaturas 
+    - quiero convalidad asignaturas 
+    - proceso de convalidad asignaturas 
+    - como puedo convalidad asignaturas 
+    - que hay que hacer para convalidad asignaturas 
+    - como hago para convalidad asignaturas 
+    - Traslado de expediente
+    - proceso de un Traslado de expediente
+    - cual es el proceso a seguir para llevar a cabo un Traslado de expediente
+    - Traslado de expediente
+    - quiero hacer un Traslado de expediente
+    - como va mi Traslado de expediente
+    - informacion de Traslado de expediente
+    - pagina de Traslado de expediente
+    - web de Traslado de expediente
+    - pagina web Traslado de expediente
+    - universidad Traslado de expediente
+    - Traslado de expediente a otra universidad
+    - pagina de convalidaciones 
+    - web de convalidaciones 
+    - pagina web de convalidaciones 
+    - No soy un estudiante
+    - tasas
+    - tasas de nuevo estuidante 
+    - tasas economicas de nuuevos estudiantes
+    - dinero
+    - mensualidades
+    - financiación
+    - prestamos 
+    - acceso para mayores
+    - preinscripcion
+    - como ver el estado de mi preinscripcion
+    - pagina web de preinscripcion
+    - como saber como va mi preinscripcion
+    - informacion de preinscripcion
+    - pagina de preinscripcion
+    - web de preinscripcion
+    - como hacer la preinscripcion
+    - no se hacer la preinscripcion
+    - informacion de preinscripcion
+    - proceso de admision
+    - pruebas
+    - admision
+    - estudiar 
+    - como hacer la matricula 
+    - pagina web de la matricula
+    - plazos para hacer la matricula
+    - cuando tengo que hacer la matricula 
+    - como se hace la matricula 
+    - informacion de la matricula 
+    - pagina web de la matricula
+    - prematricula
+    - como hacer la prematricula 
+    - pagina web de la prematricula
+    - plazos para hacer la prematricula
+    - cuando tengo que hacer la prematricula 
+    - como se hace la prematricula 
+    - informacion de la prematricula 
+    - pagina web de la prematricula
+    - matricula
+    - automatricula
+    - como hacer la automatricula 
+    - pagina web de la automatricula
+    - plazos para hacer la automatricula
+    - cuando tengo que hacer la automatricula 
+    - como se hace la automatricula 
+    - informacion de la automatricula 
+    - pagina web de la automatricula
+    - orientacion academica
+    - plazas 
+    - cuentas plazas hay en esta carrera 
+    - plazas de master 
+    - plazas de postrados 
+    - ver las plazas de una carrera 
+    - ver las plazas de la universidad
+    - cantidad de plazas de una carrera 
+    - cantidad de plazas de un grado 
+    - reserva de plazas
+    - quiero reservar mi plaza 
+    - como reservo mi plaza 
+    - como se reserva una plaza 
+    - pruebas de acceso
+    - como realizo las pruebas de acceso
+    - quieor hacer pruebas de acceso 
+    - pagina de pruebas de acceso 
+    - pruebas de acceso
+    - acceso
+- intent: nebrija_wiki
+  examples: |
+    - recuperar contraseña
+    - quiero recuperar mi contraseña 
+    - que tengo que hacer para recupera mi contraseña 
+    - informacio para recuperar la contraseña 
+    - recuperacion de contraseña 
+    - ¿que hago para recuperar la contraseña?
+    - pasos para recupera la contraseña 
+    - ¿cómo recupero la contraseña?
+    - perdida de contraseña 
+    - pagina de recuperacion de contraseña
+    - pagina web de recuperacion de contraseña
+    - he perdido mi contraseña
+    - se me ha olvidado mi contraseña
+    - contraseña 
+    - password 
+    - quiero cambiar mi contraseña
+    - cambiar contraseña
+    - pagina para cambiar la contraseña
+    - como cambio mi contraseña
+    - cambio de contraseña 
+    - quiero modificar mi contraseña
+    - modificar contraseña
+    - pagina para modificar la contraseña
+    - como modifico mi contraseña
+    - modificar contraseña
+    - conectarme a la wi-fi
+    - conectarme al wifi 
+    - wifi 
+    - wi-fi 
+    - internet 
+    - conectarse al wifi 
+    - conectarse a internet 
+    - como me conecto a internet 
+    - quiero conectarme a internet 
+    - que tengo que hacer para conectarme a internet 
+    - tengo un problema con el internet
+    - no me puedo conectar al internet
+    - no me puedo conectar a internet
+    - impresora
+    - como me conecto a la impresora 
+    - quiero conectarme a la impresora  
+    - que tengo que hacer para conectarme a la impresora  
+    - tengo un problema con la impresora 
+    - no me puedo conectar a la impresora 
+    - no me puedo conectar a la impresora 
+    - imprimir 
+    - ¿como puedo imprimir?
+    - conectarse a una impresora 
+    - configurar correo electronico 
+    - configurar correo 
+    - configurar correo web
+    - problemas con el correo web 
+    - problemas con el correo electronico
+    - problemas con el correo de la universidad 
+    - problemas con el correo 
+    - VPN 
+    - problemas con la vpn 
+    - quiero configurar la vpn 
+    - configurar VPN 
+    - red virtual privada
+    - virtal private net 
+    - configurar red privada
+    - red privada 
+    - videoconferencia
+    - soporte videoconferencia
+    - videoconferencia
+    - problemas con la videoconferencia
+    - como hacer una videoconferencia
+    - quiero hacer una videoconferencia
+    - como se hacen las videoconferencias 
+    - problema con las videoconferencias
+    - configurar video conferencia
+    - como crear un curso 
+    - no se crear cursos 
+    - como se crean cursos 
+    - como se crean cursos 
+    - crear curso
+    - crear curso en el campus virtual
+    - como crear cursos en el campus virtual
+    - incidencias con el campus virtual 
+    - tengo una incidencia con el campus 
+    - faq del ssp
+    - ssp
+    - incidencia
+    - comunicar una incidencia
+    - he sufrido una incidencia
+    - tengo una incidencia 
+    - que hacer cuando sufres una incidencia
+    - he sufrido una incidencia
+    - wiki 
+    - wikipedia 
+    - wiki sistemas 
+    - wiki nebrija
+    - ver la wiki de la nebrija 
+    - pagina web de la wiki 
+    - pagina de la wiki 
+    - web de la wiki 
+    - pagina web de la wiki de la nebrija
+    - pagina de la wiki de la nebrija
+    - web de la wiki de la nebrija
+- intent: presentacion_web
+  examples: |
+    - Web de presentacion de la universidad
+    - Web de presentacion
+    - Pagina de presentacion de la universidad
+    - Pagina de presentacion
+    - Pagina web de presentacion de la universidad
+    - Pagina web de presentacion
+    - presentacion de la universidad
+    - presentacion
+    - web de presentacion
+    - informacion del rectorado 
+    - rectorado de la universidad
+    - quiero ver informacion del rectorado de la universidad
+    - rectorado de la universidad
+    - nombre del rector de la universidad
+    - quien es el rector de la universidad
+    - rectoria de la universidad
+    - quieor ver la informacion del rector de la universidad
+    - rector
+    - rectorado
+    - quienes somos
+    - que somos
+    - reconomientos
+    - reconomientos de la universidad
+    - pagina de reconomientos de la universidad
+    - que reconomientos tiene de la universidad
+    - que reconomientos posee de la universidad
+    - cuales son los reconomientos de la universidad
+    - ver los reconomientos de la universidad
+    - ver los reconomientos
+    - que reconomientos tiene la universidad
+    - reconomientos
+    - que facultades tiene la universidad
+    - facultades de la universidad
+    - pagina con las facultades de la universidad
+    - informaciones de las facultades
+    - informacion de las facultades de la universidad
+    - facultades
+    - que centros tiene la universidad
+    - centros de la universidad
+    - pagina con los centros de la universidad
+    - informaciones de los centros
+    - informacion de los centros de la universidad
+    - centros
+    - ver calidad de la universidad
+    - calidad universitaria 
+    - centros universitarios 
+    - que centros tiene la universidad 
+    - unidad tecnica de calidad 
+    - medios de comunicacion
+    - pagina con medios de comunicacion
+    - web con medios de comunicacion
+    - pagina con medios de comunicacion de la universidad 
+    - web con medios de comunicacion de la universidad
+    - pagina con medios de comunicacion universitarios
+    - web con medios de comunicacion universitarios
+    - transparencia
+    - informacion de la transparencia 
+    - institutos
+    - profesores
+    - profesorado
+    - informacion del profesorado 
+    - profesores de la universidad 
+    - informacion de los profesores 
+    - gobierno
+    - regimen de gobierno
+    - doctores honoris causa 
+    - memoria 
+    - espacio europeo de educacion superior
+    - espacio europeos
+    - planificacion y servicios
+    - planificacion
+    - pagina web de planificacion 
+    - web de planificacion
+    - pagina de planificacion y servicios
+    - pagina de planificacion y servicios
+    - ver la planificacion y servicios
+    - gerencia
+    - pagina web de gerencia 
+    - web de gerencia
+    - pagina de gerencia
+    - pagina de gerencia
+    - ver la gerencia
+    - desarrollo universitario
+    - desarrollo
+    - pagina web de desarrollo 
+    - web de desarrollo
+    - pagina de desarrollo
+    - pagina de desarrollo universitario
+    - ver el desarrollo universitario
+    - ver el desarrollo
+    - pagina de patronato
+    - pagina web de patronato
+    - web de patronato 
+    - pagina de patronato de la universidad 
+    - pagina web de patronato de la universidad 
+    - web de patronato de la universidad 
+    - patronato de la universidad
+    - patronato
+    - pagina wed de consejo 
+    - web de consejo 
+    - pagina web de consejos de la universidad
+    - consejo
+    - consejo de gobierno
+    - consejo rector de la universidad
+    - pagina web de vicerrectorado
+    - web de rectorado 
+    - informacion del rectorado 
+    - quieor ver el rectorado  
+    - info del rectorado 
+    - vicerrectorado 
+    - pagina web de vicerrectorado de Ordenación Académica y Profesorado
+    - web de rectorado de Ordenación Académica y Profesorado
+    - informacion del rectorado de Ordenación Académica y Profesorado
+    - quieor ver el rectorado  de Ordenación Académica y Profesorado
+    - info del rectorado de Ordenación Académica y Profesorado
+    - Vicerrectorado de Ordenación Académica y Profesorado
+    - pagina web de vicerrectoradode investigacion
+    - web de rectorado de investigacion
+    - informacion del rectorado de investigacion
+    - quieor ver el rectorado de investigacion
+    - info del rectorado de investigacion
+    - El Vicerrectorado de investigacion
+    - Vicerrectorado de Estudiantes y Empleabilidad
+    - estructura organizativa de las facultades
+    - estructura facultades
+    - info de estructura facultades
+    - pagina de estructura facultades
+    - pagina web de estructura facultades
+    - informacion de estructura facultades
+    - info de estructura organizativa de las facultades
+    - pagina de estructura organizativa de las facultades
+    - pagina web de estructura organizativa de las facultades
+    - informacion de estructura organizativa de las facultades
+- intent: oferta_academica
+  examples: |
+    - Web de oferta academica de la universidad
+    - Web de oferta academica
+    - Pagina de oferta academica de la universidad
+    - Pagina de oferta academica
+    - Pagina web de oferta academica de la universidad
+    - Pagina web de oferta academica
+    - oferta academica de la universidad
+    - oferta academica
+    - quiero ver las ofertas academicas de la universidad
+    - que ofertas academicas ofrece la universidad
+    - academica
+    - oferta
+    - carrera
+    - carrera universitaria
+    - que carreras tiene la universidad
+    - quiero ver los grados de la universidad
+    - quiero ver los grados universitarios 
+    - que grados ofrece la universidad 
+    - quiero ver las carreras de la universidad
+    - quiero ver las carreras universitarias 
+    - que carreras ofrece la universidad 
+    - grado
+    - grado universitario
+    - master
+    - que maste ofrece la universidad 
+    - quiero ve los master de la universidad 
+    - requisitos carrera 
+    - requisitos grado 
+    - requisitos master 
+    - estudios superiores de la universidad 
+    - masteres de la universidad 
+    - master universitario
+    - postgrado
+    - postgrado universitario
+    - quiero ver la oferta de postrgrados de la universidad 
+    - que postragos tiene la universidad 
+    - que postragos hay en la universidad 
+    - postrados de la universidad 
+    - quiero estudiar un doctorado 
+    - oferta de doctorados 
+    - que dosctorados ofrece la universidad 
+    - que doctorados tiene la universidad 
+    - que doctorados hay en la universidad
+    - doctorado
+    - doctorado universitario
+    - que postrados ofrece la universidad 
+    - que postrados tiene la universidad 
+    - que postrados hay en la universidad
+    - información academica
+    - informacion academica de la universidad 
+    - información academica universitarias
+    - ¿Que carreras hay?
+    - ¿Que grado hay?
+    - ¿Que postgrado hay?
+    - ¿Que master hay?
+    - ¿Que doctorado hay?
+    - informacion grado
+    - informacion carrera
+    - informacion master
+    - informacion postgrado
+    - informacion doctorado
+    - estudios
+    - plan de estudios
+    - quiero ver los planes de estudio de la universidad 
+    - quiero ver los planes de estudio universitarios 
+    - quiero ver los planes universitarios
+    - quier ver los planes 
+    - cursos
+    - hacer cursos
+    - ver cursos
+    - que cursos hay en la universidad 
+    - que cursos ofrece la universidad
+    - informacion de cursos
+    - precios 
+    - precios de los cursos de la universidad
+    - precios de las carreras de la universidad
+    - precios de los grados de la universidad
+    - precios del doctorad de la universidad
+    - precios de los masteres de la universidad
+    - precios de los titulos de la universidad
+    - precios de la formacion en la universidad
+    - coste de los cursos de la universidad
+    - coste de las carreras de la universidad
+    - coste de los grados de la universidad
+    - coste del doctorad de la universidad
+    - coste de los masteres de la universidad
+    - coste de los titulos de la universidad
+    - coste de la formacion en la universidad
+    - coste
+    - titulos de la universidad
+    - que titulos ofrece la universidad
+    - titulos
+    - titulacion
+    - trabajo 
+    - trabajo de la universidad
+    - trabajo en la universidad
+    - escuela
+    - escuelas
+    - formacion
+    - e learning
+    - global campus
+    - global
+    - titulaciones
+    - que titulaciones ofrece la universidad
+    - titulaciones de la universidad
+    - titulos de la universidad
+    - titulos universitarios 
+    - precio del titulo universitario 
+    - coste del titulo universitario
+- intent: vida_universitaria
+  examples: |
+    - Web de vida universitaria en la universidad
+    - Web de la vida universitaria en la universidad
+    - Web de vida universitaria
+    - Pagina de vida universitaria en la universidad
+    - Pagina de vida universitaria
+    - Pagina Web de vida universitaria en la universidad
+    - Pagina Web de vida universitaria
+    - vida universitaria
+    - vida universitaria de la universidad
+    - vida universitaria de la universidad antonio de nebrija
+    - quiero ver vida universitaria
+    - quiero ver la vida universitaria
+    - ¿Como es la vida universitaria?
+    - ¿Como es la vida universitaria en la universidad?
+    - ¿Como es la vida en la universidad?
+    - ¿Que clubes hay en la universidad?
+    - Me quiero apuntar a un club 
+    - Quiero apuntarme a un club 
+    - Clubes de la universidad
+    - ¿Que clubes hay en la universidad?
+    - Informacion sobre los clubes de la universidad
+    - Club
+    - Clubes en la universidad
+    - Informacion de los clubes
+    - ¿Hay clubes en la universidad?
+    - ¿Que clubes hay en la universidad?
+    - ¿Que clubes hay?
+    - Deportes
+    - Deportes en la universidad
+    - ¿Hay deportes en la universidad?
+    - ¿Que deportes hay en la universidad?
+    - ¿Que deportes hay?
+    - Quiero ver los deportes que ofrece la universidad
+    - Hacer deporte en la universidad
+    - Practicas universitarias 
+    - Quiero hacer practicas universitarias
+    - Como son las practicas universitarias
+    - Son remuneradas las practicas universitarias
+    - Hacer practicas en la universidad
+    - Hacer practicas universitarias
+    - Profesional
+    - Nebrija profesional
+    - Practicas
+    - Practicas en la universidad
+    - Actividades
+    - Actividades en la universidad
+    - ¿Que actividades ofrece la universidad?
+    - Actividades de la universidad
+    - Actividades universitarias
+    - ¿Cómo son las actividades en la universidad?
+    - Quiero hacer actividades
+    - ¿Que actividades hay en la universidad?
+    - Redes sociales 
+    - Redes sociales de la universidad
+    - Ver las redes sociales de la universidad
+    - ¿Que redes sociales tiene en la universidad?
+    - Twitter de la universidad
+    - Youtube de la universidad
+    - Facebook de la universidad
+    - Instragram de la universidad
+    - Blogs 
+    - Blog de la universidad
+    - ¿Que blogs tiene la universidad?
+    - Ver los blogs de la universidad
+    - Quiero ver los espacios multiculturales 
+    - Cultura en la universidad
+    - Espacios multiculturales universitarios 
+    - ¿La universidad tienes espacios multiculturales?
+    - Espacios multiculturales
+    - Espacione multiculturales de la universidad
+    - Servicios
+    - ¿Que servicios tiene la universidad?
+    - ¿Que servicios ofrece la universidad?
+    - Servicios universitarios
+    - Quiero ver los servicios de la universidad
+    - Servicios de la universidad
+    - Actualidad
+    - ¿Cuál es la actualidad de la universidad?
+    - Quiero ver la actualidad de la universidad 
+    - Ultimas noticias de la universidad 
+    - Quiero ver las ultimas noticas de la universidad 
+    - Ver noticas de la universidad 
+    - Noticias de la universidad 
+    - Actualidad de la  universidad
+    - Defensoria
+    - ¿La universidad tiene defensoria?
+    - Defensa al alumno
+    - Defensa al profesorado 
+    - Quiero ver informacion de la defensoria de la universidad
+    - Defensoria de la universidad
+    - Quiero ver los respositorios de la universidad
+    - Quiero ver los repositorios 
+    - ¿La universidad tiene repositorios?
+    - ¿Como es el repositorio de la universidad?
+    - Repositorio universitario
+    - Repositorio
+    - servicios
+    - Ver el Laboratorio de la universidad 
+    - Laboratorio universitario 
+    - ¿Como es el laboratorio de la universidad?
+    - Quiero ver el laboratorio de la universidad
+    - Laboratorio en la universidad
+    - ¿La universidad tiene laboratorio?
+    - Laboratorio
+    - Ver la cafeteria de la universidad 
+    - cafeteria universitaria 
+    - ¿Como es la cafeteria de la universidad?
+    - Quiero ver la cafeteria de la universidad
+    - cafeteria en la universidad
+    - ¿La universidad tiene cafeteria?
+    - Que comida se sirve en la universidad
+    - Quiero comer en la universidad
+    - Bono de cafeteria 
+    - Comida de la universidad
+    - cafeteria
+    - comedores
+    - Hacer talleres en la universidad
+    - Ver el taller de la universidad 
+    - talleres universitarios
+    - ¿Como son los talleres de la universidad?
+    - Quiero ver los talleres de la universidad
+    - talleres en la universidad
+    - ¿La universidad tiene talleres?
+    - quiero hacer talleres 
+    - puedo hacer algun taller 
+    - existe el taller de escritura
+    - taller
+    - ¿Como son las salas de la universidad?
+    - Quiero ver las salas de la universidad
+    - salas en la universidad
+    - ¿La universidad tiene salas?
+    - informacion sobre las salas de la universidad
+    - salas
+    - pdi 
+    - pagina web de pdi 
+    - pagina de pdi 
+    - pagina web de pda 
+    - pagina de pda 
+    - pdi 
+    - pda
+    - plan de dedicacion academica
+    - plan dedicacion academica
+    - dedicacion academica 
+    - Servicio de Gestión de Personal Docente e Investigador 
+    - proyector
+    - la universidad tiene proyectores 
+    - que poryectores hay en la universidad
+    - proyector en la unidad
+    - pantallas 
+    - pantalla 
+    - televisión 
+    - vídeo 
+    - DVD  
+    - pizarra
+    - menu
+    - cateria
+    - comida
+    - instalaciones
+    - servicios online
+    - que empleo tiene la universidad
+    - Empleabilidad de la universidad
+    - empleo
+    - empresas
+    - Parroquia
+    - Iglesia
+    - Sinagoga
+    - Mezquita
+    - budismo
+    - Templo
+    - Imagenes
+    - Nebrija en imajenes
+    - Videos
+    - Videos Nebrija
+    - Galeria
