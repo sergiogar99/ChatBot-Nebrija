@@ -2,10 +2,13 @@ version: "2.0"
 
 stories:
 
-- story: saludo y presentacion
+- story: saludo
   steps:
   - intent: saludo
   - action: utter_greet
+  
+- story: identidad
+  steps:
   - intent: identidad
   - action: utter_introduction
 
@@ -41,7 +44,7 @@ stories:
   
 - story: Web presentacion
   steps:
-  - intent: presentacion
+  - intent: presentacion_web
   - action: utter_presentation
 
 - story: Web oferta academica
@@ -124,3 +127,13 @@ stories:
   steps:
   - intent: residencias
   - action: utter_residencias
+
+- story: Nebrija wiki 
+  steps:
+  - intent: nebrija_wiki
+  - action: utter_wiki
+
+- story: Secretaria
+  steps:
+  - intent: secretaria
+  - action: utter_secretary
