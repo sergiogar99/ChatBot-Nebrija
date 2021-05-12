@@ -35,5 +35,11 @@ python -m spacy download es_core_news_sm
 
 
 
+### Video
+
+[Video explaining the behavior of the Bot](https://youtu.be/8fVr3dK4b7U)
+
+
+
 
 
